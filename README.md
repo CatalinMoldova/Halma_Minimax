@@ -57,17 +57,17 @@ The program reads from an input.txt file and writes the chosen move(s) to an out
 
 
 
-##Input and Output Formats
+## Input and Output Formats
 
 **Input (input.txt)**
 
-First Line: SINGLE or GAME indicating whether the AI is making a single move or playing a full game.
+**First Line**: SINGLE or GAME indicating whether the AI is making a single move or playing a full game.
 
-Second Line: BLACK or WHITE indicating the AI's color.
+**Second Line**: BLACK or WHITE indicating the AI's color.
 
-Third Line: A positive floating-point number representing the total play time remaining for the AI.
+**Third Line**: A positive floating-point number representing the total play time remaining for the AI.
 
-Next 16 Lines: The game board representation:
+**Next 16 Lines**: The game board representation:
 
 W for a cell occupied by a white piece.
 
