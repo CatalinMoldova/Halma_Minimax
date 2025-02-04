@@ -57,9 +57,9 @@ The program reads from an input.txt file and writes the chosen move(s) to an out
 
 
 
-Input and Output Formats
+##Input and Output Formats
 
-Input (input.txt)
+**Input (input.txt)**
 
 First Line: SINGLE or GAME indicating whether the AI is making a single move or playing a full game.
 
