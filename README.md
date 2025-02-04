@@ -52,5 +52,5 @@ For a detailed explanation of the rules, refer to [this resource](http://www.cyn
 To run the AI agent
 ```bash
 python halma.py
-
+'''
 The program reads from an input.txt file and writes the chosen move(s) to an output.txt file.
