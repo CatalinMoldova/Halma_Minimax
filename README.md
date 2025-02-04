@@ -46,3 +46,9 @@ For a detailed explanation of the rules, refer to [this resource](http://www.cyn
 2. **Install Dependencies**:
    ```bash
    Ensure you have Python 3.x installed. Install any required packages using pip:
+   pip install -r requirements.txt
+## Usage
+
+To run the AI agent
+python halma.py
+
