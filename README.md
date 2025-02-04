@@ -54,3 +54,89 @@ To run the AI agent
 python halma.py
 ```
 The program reads from an input.txt file and writes the chosen move(s) to an output.txt file.
+
+
+
+Input and Output Formats
+
+Input (input.txt)
+
+First Line: SINGLE or GAME indicating whether the AI is making a single move or playing a full game.
+
+Second Line: BLACK or WHITE indicating the AI's color.
+
+Third Line: A positive floating-point number representing the total play time remaining for the AI.
+
+Next 16 Lines: The game board representation:
+
+W for a cell occupied by a white piece.
+
+B for a cell occupied by a black piece.
+
+. for an empty cell.
+
+Example:
+
+SINGLE
+WHITE
+100.0
+BBBBB...........
+BBBBB...........
+BBBB............
+BBB.............
+BB..............
+................
+................
+................
+................
+................
+................
+..............WW
+.............WWW
+............WWWW
+...........WWWWW
+...........WWWWW
+
+Output (output.txt)
+
+Each line represents a move in one of the following formats:
+
+Single Step Move: E FROM_X,FROM_Y TO_X,TO_Y
+
+Jump Move: J FROM_X,FROM_Y TO_X,TO_Y
+
+Example:
+
+J 14,13 12,11
+
+Algorithm Details
+
+The AI employs the Minimax algorithm with Alpha-Beta pruning to evaluate potential moves up to a specified depth. The evaluation function considers factors such as:
+
+Distance of pieces from the target corner.
+
+Number of pieces in the opponent's starting zone.
+
+Penalties for pieces remaining in their own starting zone.
+
+This approach ensures the AI makes strategic decisions aimed at winning the game efficiently.
+
+File Structure
+
+📂 Halma_Minimax
+│── 📄 halma.py              # Main script to run the AI agent
+│── 📄 input.txt             # Input file containing the current game state
+│── 📄 output.txt            # Output file where the AI writes its move(s)
+│── 📄 README.md             # Project documentation
+│── 📄 requirements.txt      # List of required Python packages
+│── 📂 docs                  # Documentation files (if any)
+
+Contributors
+
+CatalinMoldova
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
