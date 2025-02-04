@@ -50,5 +50,6 @@ For a detailed explanation of the rules, refer to [this resource](http://www.cyn
 ## Usage
 
 To run the AI agent
+```bash
 python halma.py
 
