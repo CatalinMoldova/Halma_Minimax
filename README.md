@@ -2,17 +2,29 @@ Halma Minimax AI
 This project implements an AI agent to play the game of Halma using the Minimax algorithm with Alpha-Beta pruning. The AI is designed to evaluate the game board and determine the optimal move up to a specified depth.
 
 Table of Contents
+
 Introduction
+
 Game Rules
+
 Features
+
 Setup and Installation
+
 Usage
+
 Input and Output Formats
+
 Algorithm Details
+
 File Structure
+
 Contributors
+
 License
+
 Introduction
+
 Halma is a strategic board game played on a 16x16 checkered board. Each player starts with 19 pieces positioned in diagonally opposite corners. The objective is to move all pieces from the starting corner to the opponent's corner. This project focuses on creating an AI agent capable of playing Halma efficiently against human players or other AI agents.
 
 Game Rules
