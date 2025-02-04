@@ -43,3 +43,6 @@ For a detailed explanation of the rules, refer to [this resource](http://www.cyn
    ```bash
    git clone https://github.com/CatalinMoldova/Halma_Minimax.git
    cd Halma_Minimax
+2. **Install Dependencies**:
+   ```bash
+   Ensure you have Python 3.x installed. Install any required packages using pip:
