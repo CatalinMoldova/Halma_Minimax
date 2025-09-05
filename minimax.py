@@ -156,4 +156,5 @@ if __name__ == '__main__':
     print(b.game_won())
     print(b.possible_moves(2))
     print(Mx.evaluation_funct(b,2))
-    print(Mx.minimax(b, 4, -infinity, infinity, True))
+    print(Mx.minimax(b, 6, -infinity, infinity, True))
+
